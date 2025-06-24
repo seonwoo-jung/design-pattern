@@ -1,3 +1,5 @@
+package design.pattern.adapter;
+
 public class Adapter implements Target {
 
     private final Adaptee adaptee;

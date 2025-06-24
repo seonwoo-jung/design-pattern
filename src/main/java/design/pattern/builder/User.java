@@ -19,14 +19,18 @@ public class User {
 
     // 정적 내부 클래스 Builder
     public static class Builder {
-        private final String username;  // 필수 파라미터
+        private String username;  // 필수 파라미터
 
-        private String email = "";
-        private int age = 0;
-        private String phone = "";
+        private String email;
+        private int age;
+        private String phone;
 
-        public Builder(String username) {
+        public Builder() {
+        }
+
+        public Builder username(String username) {
             this.username = username;
+            return this;
         }
 
         public Builder email(String email) {
