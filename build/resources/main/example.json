@@ -1,0 +1,469 @@
+{
+  "response": {
+    "header": {
+      "resultCode": 0,
+      "resultMsg": "NORMAL SERVICE."
+    },
+    "body": {
+      "items": {
+        "item": [
+          {
+            "udpateDate": "2024.08.12",
+            "yearList": [
+              2019,
+              2020,
+              2021,
+              2022,
+              2023
+            ],
+            "paymentTerms": [
+              {
+                "CODE": "PDR_OATT",
+                "PAYMENT_TERMS": [
+                  {
+                    "YEAR": "2019",
+                    "CNT": 321675.0,
+                    "VALUE": 70.3
+                  },
+                  {
+                    "YEAR": "2020",
+                    "CNT": 326676.0,
+                    "VALUE": 72.2
+                  },
+                  {
+                    "YEAR": "2021",
+                    "CNT": 360898.0,
+                    "VALUE": 73.4
+                  },
+                  {
+                    "YEAR": "2022",
+                    "CNT": 301991.0,
+                    "VALUE": 73.1
+                  },
+                  {
+                    "YEAR": "2023",
+                    "CNT": 286935.0,
+                    "VALUE": 72.2
+                  }
+                ],
+                "CODE_NM": "O/A(T/T 포함)"
+              },
+              {
+                "CODE": "PDR_DA",
+                "PAYMENT_TERMS": [
+                  {
+                    "YEAR": "2019",
+                    "CNT": 29915.0,
+                    "VALUE": 6.5
+                  },
+                  {
+                    "YEAR": "2020",
+                    "CNT": 24978.0,
+                    "VALUE": 5.5
+                  },
+                  {
+                    "YEAR": "2021",
+                    "CNT": 23851.0,
+                    "VALUE": 4.9
+                  },
+                  {
+                    "YEAR": "2022",
+                    "CNT": 19639.0,
+                    "VALUE": 4.8
+                  },
+                  {
+                    "YEAR": "2023",
+                    "CNT": 17640.0,
+                    "VALUE": 4.4
+                  }
+                ],
+                "CODE_NM": "D/A"
+              },
+              {
+                "CODE": "PDR_DP",
+                "PAYMENT_TERMS": [
+                  {
+                    "YEAR": "2019",
+                    "CNT": 6903.0,
+                    "VALUE": 1.5
+                  },
+                  {
+                    "YEAR": "2020",
+                    "CNT": 6217.0,
+                    "VALUE": 1.4
+                  },
+                  {
+                    "YEAR": "2021",
+                    "CNT": 6042.0,
+                    "VALUE": 1.2
+                  },
+                  {
+                    "YEAR": "2022",
+                    "CNT": 4886.0,
+                    "VALUE": 1.2
+                  },
+                  {
+                    "YEAR": "2023",
+                    "CNT": 4711.0,
+                    "VALUE": 1.2
+                  }
+                ],
+                "CODE_NM": "D/P"
+              },
+              {
+                "CODE": "PDR_NET",
+                "PAYMENT_TERMS": [
+                  {
+                    "YEAR": "2019",
+                    "CNT": 16436.0,
+                    "VALUE": 3.6
+                  },
+                  {
+                    "YEAR": "2020",
+                    "CNT": 19647.0,
+                    "VALUE": 4.3
+                  },
+                  {
+                    "YEAR": "2021",
+                    "CNT": 22854.0,
+                    "VALUE": 4.6
+                  },
+                  {
+                    "YEAR": "2022",
+                    "CNT": 23632.0,
+                    "VALUE": 5.7
+                  },
+                  {
+                    "YEAR": "2023",
+                    "CNT": 24886.0,
+                    "VALUE": 6.3
+                  }
+                ],
+                "CODE_NM": "NET"
+              },
+              {
+                "CODE": "PDR_CAD",
+                "PAYMENT_TERMS": [
+                  {
+                    "YEAR": "2019",
+                    "CNT": 10105.0,
+                    "VALUE": 2.2
+                  },
+                  {
+                    "YEAR": "2020",
+                    "CNT": 9426.0,
+                    "VALUE": 2.1
+                  },
+                  {
+                    "YEAR": "2021",
+                    "CNT": 10254.0,
+                    "VALUE": 2.1
+                  },
+                  {
+                    "YEAR": "2022",
+                    "CNT": 9440.0,
+                    "VALUE": 2.3
+                  },
+                  {
+                    "YEAR": "2023",
+                    "CNT": 9852.0,
+                    "VALUE": 2.5
+                  }
+                ],
+                "CODE_NM": "CAD"
+              },
+              {
+                "CODE": "PDR_COD",
+                "PAYMENT_TERMS": [
+                  {
+                    "YEAR": "2019",
+                    "CNT": 6008.0,
+                    "VALUE": 1.3
+                  },
+                  {
+                    "YEAR": "2020",
+                    "CNT": 4423.0,
+                    "VALUE": 1.0
+                  },
+                  {
+                    "YEAR": "2021",
+                    "CNT": 4142.0,
+                    "VALUE": 0.8
+                  },
+                  {
+                    "YEAR": "2022",
+                    "CNT": 3224.0,
+                    "VALUE": 0.8
+                  },
+                  {
+                    "YEAR": "2023",
+                    "CNT": 1939.0,
+                    "VALUE": 0.5
+                  }
+                ],
+                "CODE_NM": "COD"
+              },
+              {
+                "CODE": "PDR_LC",
+                "PAYMENT_TERMS": [
+                  {
+                    "YEAR": "2019",
+                    "CNT": 66431.0,
+                    "VALUE": 14.5
+                  },
+                  {
+                    "YEAR": "2020",
+                    "CNT": 61092.0,
+                    "VALUE": 13.5
+                  },
+                  {
+                    "YEAR": "2021",
+                    "CNT": 63480.0,
+                    "VALUE": 12.9
+                  },
+                  {
+                    "YEAR": "2022",
+                    "CNT": 50575.0,
+                    "VALUE": 12.2
+                  },
+                  {
+                    "YEAR": "2023",
+                    "CNT": 51613.0,
+                    "VALUE": 13.0
+                  }
+                ],
+                "CODE_NM": "L/C"
+              }
+            ],
+            "averagePaymentPeriod": [
+              {
+                "YEAR": "2019",
+                "VALUE": 70.9
+              },
+              {
+                "YEAR": "2020",
+                "VALUE": 71.6
+              },
+              {
+                "YEAR": "2021",
+                "VALUE": 72.9
+              },
+              {
+                "YEAR": "2022",
+                "VALUE": 72.0
+              },
+              {
+                "YEAR": "2023",
+                "VALUE": 72.3
+              }
+            ],
+            "latePaymentRate": [
+              {
+                "YEAR": "2019",
+                "VALUE": 13.1
+              },
+              {
+                "YEAR": "2020",
+                "VALUE": 13.0
+              },
+              {
+                "YEAR": "2021",
+                "VALUE": 12.5
+              },
+              {
+                "YEAR": "2022",
+                "VALUE": 15.0
+              },
+              {
+                "YEAR": "2023",
+                "VALUE": 17.1
+              }
+            ],
+            "averagelatePaymentPeriod": [
+              {
+                "YEAR": "2019",
+                "VALUE": 17.1
+              },
+              {
+                "YEAR": "2020",
+                "VALUE": 19.1
+              },
+              {
+                "YEAR": "2021",
+                "VALUE": 15.9
+              },
+              {
+                "YEAR": "2022",
+                "VALUE": 16.6
+              },
+              {
+                "YEAR": "2023",
+                "VALUE": 16.8
+              }
+            ],
+            "paymentPeriod": [
+              {
+                "CODE": "30_UNDER",
+                "PAYMENT_PERIOD": [
+                  {
+                    "YEAR": "2019",
+                    "CNT": 103871,
+                    "VALUE": 22.7
+                  },
+                  {
+                    "YEAR": "2020",
+                    "CNT": 101783,
+                    "VALUE": 22.5
+                  },
+                  {
+                    "YEAR": "2021",
+                    "CNT": 103807,
+                    "VALUE": 21.1
+                  },
+                  {
+                    "YEAR": "2022",
+                    "CNT": 90517,
+                    "VALUE": 21.9
+                  },
+                  {
+                    "YEAR": "2023",
+                    "CNT": 88579,
+                    "VALUE": 22.3
+                  }
+                ],
+                "CODE_NM": "30일 이내"
+              },
+              {
+                "CODE": "60_UNDER",
+                "PAYMENT_PERIOD": [
+                  {
+                    "YEAR": "2019",
+                    "CNT": 136561,
+                    "VALUE": 29.9
+                  },
+                  {
+                    "YEAR": "2020",
+                    "CNT": 125653,
+                    "VALUE": 27.8
+                  },
+                  {
+                    "YEAR": "2021",
+                    "CNT": 133072,
+                    "VALUE": 27.1
+                  },
+                  {
+                    "YEAR": "2022",
+                    "CNT": 112261,
+                    "VALUE": 27.2
+                  },
+                  {
+                    "YEAR": "2023",
+                    "CNT": 104724,
+                    "VALUE": 26.3
+                  }
+                ],
+                "CODE_NM": "31일 ~ 60일"
+              },
+              {
+                "CODE": "90_UNDER",
+                "PAYMENT_PERIOD": [
+                  {
+                    "YEAR": "2019",
+                    "CNT": 130008,
+                    "VALUE": 28.4
+                  },
+                  {
+                    "YEAR": "2020",
+                    "CNT": 133200,
+                    "VALUE": 29.4
+                  },
+                  {
+                    "YEAR": "2021",
+                    "CNT": 149539,
+                    "VALUE": 30.4
+                  },
+                  {
+                    "YEAR": "2022",
+                    "CNT": 125457,
+                    "VALUE": 30.3
+                  },
+                  {
+                    "YEAR": "2023",
+                    "CNT": 121587,
+                    "VALUE": 30.6
+                  }
+                ],
+                "CODE_NM": "61일 ~ 90일"
+              },
+              {
+                "CODE": "120_UNDER",
+                "PAYMENT_PERIOD": [
+                  {
+                    "YEAR": "2019",
+                    "CNT": 59285,
+                    "VALUE": 13.0
+                  },
+                  {
+                    "YEAR": "2020",
+                    "CNT": 66091,
+                    "VALUE": 14.6
+                  },
+                  {
+                    "YEAR": "2021",
+                    "CNT": 75282,
+                    "VALUE": 15.3
+                  },
+                  {
+                    "YEAR": "2022",
+                    "CNT": 62774,
+                    "VALUE": 15.2
+                  },
+                  {
+                    "YEAR": "2023",
+                    "CNT": 60725,
+                    "VALUE": 15.3
+                  }
+                ],
+                "CODE_NM": "91일 ~ 120일"
+              },
+              {
+                "CODE": "121_OVER",
+                "PAYMENT_PERIOD": [
+                  {
+                    "YEAR": "2019",
+                    "CNT": 27748,
+                    "VALUE": 6.1
+                  },
+                  {
+                    "YEAR": "2020",
+                    "CNT": 25732,
+                    "VALUE": 5.7
+                  },
+                  {
+                    "YEAR": "2021",
+                    "CNT": 29821,
+                    "VALUE": 6.1
+                  },
+                  {
+                    "YEAR": "2022",
+                    "CNT": 22378,
+                    "VALUE": 5.4
+                  },
+                  {
+                    "YEAR": "2023",
+                    "CNT": 21961,
+                    "VALUE": 5.5
+                  }
+                ],
+                "CODE_NM": "120일 초과"
+              }
+            ]
+          }
+        ]
+      },
+      "pageNo": 1,
+      "totalCount": 1,
+      "numOfRows": 10
+    }
+  }
+}
