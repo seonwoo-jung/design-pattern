@@ -1,7 +1,7 @@
-package design.pattern.example;
+package design.pattern.kotra_example;
 
 import com.fasterxml.jackson.databind.ObjectMapper;
-import java.io.File;
+import design.pattern.kotra_example.dto.ResponseHandler;
 import java.io.IOException;
 import java.io.InputStream;
 import lombok.extern.slf4j.Slf4j;
@@ -14,6 +14,9 @@ public class ReaderMain {
 	public static void main(String[] args) throws IOException {
 		Resource resource = new ClassPathResource("example.json");
 		InputStream is = resource.getInputStream();
-		WrapperDTO dto = new ObjectMapper().readValue(is, WrapperDTO.class);
+		ResponseHandler response = new ObjectMapper().readValue(is, ResponseHandler.class);
+		String prettyResponse = new ObjectMapper().writerWithDefaultPrettyPrinter().writeValueAsString(response);
+
+		log.info("response => {}", prettyResponse);
 	}
 }
